@@ -13,7 +13,7 @@ class NavigationService {
   }
 
   bool goBack() {
-    return navigatorKey.currentState.pop();
+    return true;
   }
 
   Future cNavigateTo(Widget controller) {
